@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A5217"
+    android:orientation="vertical"
+    android:padding="20dp"> <!-- Nature dark theme background -->
+
+    <!-- 1. Item Name Input (ID Added here) -->
+    <EditText
+        android:id="@+id/edtItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:textColor="#557A51"
+        android:textColorHint="#C75A38" />
+
+    <!-- 2. Category Input -->
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:textColor="#402907"
+        android:textColorHint="#009688" />
+
+    <!-- 3. Quantity Input -->
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:textColor="#2196F3"
+        android:textColorHint="#CA1E1E" />
+
+    <!-- 4. Comments Input -->
+    <EditText
+        android:id="@+id/edtComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBBBBB" />
+
+    <!-- 5. Add Button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#4E6E35"
+        android:text="Add Gear" />
+
+    <!-- 6. View Button -->
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3A5228"
+        android:text="View Checklist" />
+
+    <!-- 7. Total TextView -->
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Total Items Packed: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
